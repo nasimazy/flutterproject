@@ -60,7 +60,7 @@ class _farmersuiState extends State<farmersui> {
                   Container(
 
 
-                    height: 25,width: 120,
+                    height: 25,width: 90,
                     decoration: BoxDecoration(
                       border: Border.all(
                           color:Colors.green
@@ -73,12 +73,12 @@ class _farmersuiState extends State<farmersui> {
                   Container(
 
 
-                    height: 25,width: 120,
+                    height: 25,width: 80,
                     decoration: BoxDecoration(
                       border: Border.all(
                           color:Colors.green
                       ),
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
 
                     ),
                     child: const Center(child: Text("FRUITS",style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold))),
@@ -86,7 +86,8 @@ class _farmersuiState extends State<farmersui> {
                   Container(
 
 
-                    height: 25,width: 120,
+
+                    height: 25,width: 90,
                     decoration: BoxDecoration(
                       border: Border.all(
                           color:Colors.green
@@ -99,12 +100,12 @@ class _farmersuiState extends State<farmersui> {
                   Container(
 
 
-                    height: 25,width: 120,
+                    height: 25,width: 100,
                     decoration: BoxDecoration(
                       border: Border.all(
                         color: Colors.green,
                       ),
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(10),
 
                     ),
                     child: const Center(child: Text("FRESH CUTS",style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold))),
@@ -169,21 +170,21 @@ class _farmersuiState extends State<farmersui> {
                     children: [
                       Column(
                         children: [
-                          const Icon(Icons.timer,color: Colors.black87,),
+                          const Icon(Icons.timer,color: Colors.green,),
                           const SizedBox(height: 10,),
                           const Text("30 MINS POLICY"),
                         ],
                       ),
                       Column(
                         children: [
-                          const Icon(Icons.phone_iphone,color: Colors.black87,),
+                          const Icon(Icons.phone_iphone,color: Colors.green,),
                           const SizedBox(height: 10,),
                           const Text("TRACABILITY"),
                         ],
                       ),
                       Column(
                         children: [
-                          const Icon(Icons.home_work,color: Colors.black87,),
+                          const Icon(Icons.home_work,color: Colors.green,),
                           const SizedBox(height: 10,),
                           const Text("LOCAL SURROUND"),
                         ],
@@ -219,10 +220,10 @@ class vegfruit extends StatelessWidget{
     'assets/images/veg1.jpg',
     'assets/images/frt1.jpg',
     'assets/images/veg2.jpg',
-    "assets/images/vegcuts.jpg",
-    "assets/images/nutrition.jpg",
-    "assets/images/packedflavours.jpg",
-    "assets/images/vegsalad.jpg"
+    "assets/images/frt2.jpg",
+    "assets/images/frt3.jpg",
+    "assets/images/carrot.jpg",
+    "assets/images/salad.jpg"
 
   ];
   List <String> titles=[
