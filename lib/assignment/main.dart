@@ -22,8 +22,8 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-         //  decoration: const BoxDecoration(
-          image: DecorationImage(
+         // decoration: const BoxDecoration(
+         // image: DecorationImage(
              image: NetworkImage("https://i.pinimg.com/564x/79/40/73/794073b1bf3050da16f2c9b84cc39174.jpg")),
           child: Center(
             child: Column(

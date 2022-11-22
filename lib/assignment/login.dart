@@ -16,7 +16,7 @@ class _loginpageState extends State<loginpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      //appBar: AppBar(),
       body: SingleChildScrollView(
 
         child: Center(
@@ -100,7 +100,7 @@ class _loginpageState extends State<loginpage> {
                   },
                   child: const Text("Login"),
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.blueAccent),
+                      backgroundColor: Colors.blue),
                 ),
               ),
               const Padding(
