@@ -22,9 +22,10 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-         // decoration: const BoxDecoration(
+         //decoration: const BoxDecoration(
          // image: DecorationImage(
-             image: NetworkImage("https://i.pinimg.com/564x/79/40/73/794073b1bf3050da16f2c9b84cc39174.jpg")),
+             //image: NetworkImage("https://i.pinimg.com/564x/79/40/73/794073b1bf3050da16f2c9b84cc39174.jpg")
+         // ),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -37,6 +38,7 @@ class _SplashState extends State<Splash> {
                       fontWeight: FontWeight.bold,
                       color: Colors.black),
                 ),
+
                 const Padding(padding: EdgeInsets.all(30)),
                 const Center(
                   child: Text(
@@ -47,7 +49,7 @@ class _SplashState extends State<Splash> {
                   ),
                 ),
                 const Padding(padding: EdgeInsets.all(30)),
-                Image.asset("assets/img/splashlogin.png", height: 300, width: 300),
+                Image.asset("assets/images/image1.png", height: 200, width: 200),
                 const Padding(padding: EdgeInsets.only(top: 30)),
                 SizedBox(
                   height: 40,
