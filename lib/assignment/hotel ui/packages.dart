@@ -11,22 +11,22 @@ class hotelpackages extends StatelessWidget {
       child: Container(
         child: Column(children: [
           roompackage(
-              roomimage: 'assets/img/room.webp',
+              roomimage: 'assets/hotelrooms/room1.jpg',
               hotelname: "Crown Plaza",
               hoteldetails: 'A five star hotel in Kochi',
               hotelprice: '\$1000 / night'),
           roompackage(
-              roomimage: 'assets/img/hotelbookingimages/room2.jpg',
+              roomimage: 'assets/hotelrooms/room2.jpg',
               hotelname: "Hotel Taj",
               hoteldetails: 'A five star hotel in Kochi',
               hotelprice: '\$1200 / night'),
           roompackage(
-              roomimage: 'assets/img/hotelbookingimages/room3.jpg',
+              roomimage: 'assets/hotelrooms/room3.jpg',
               hotelname: "Hotel Raw",
               hoteldetails: 'A four star hotel in Kakkanad',
               hotelprice: '\$800 / night'),
           roompackage(
-              roomimage: 'assets/img/hotelbookingimages/room4.jpg',
+              roomimage: 'assets/hotelrooms/room4.jpg',
               hotelname: "Hotel Diamond ",
               hoteldetails: 'A four star hotel in Edapalli',
               hotelprice: '\$850 / night'),
@@ -101,7 +101,7 @@ class roompackage extends StatelessWidget {
                         ),
                         Text(
                           hotelprice,
-                          style: TextStyle(color: Colors.purple),
+                          style: TextStyle(color: Colors.cyan),
                         ),
                         SizedBox(
                           height: 5,
@@ -115,22 +115,22 @@ class roompackage extends StatelessWidget {
                               children: [
                                 Icon(
                                   FontAwesomeIcons.car,
-                                  color: Colors.purple,
+                                  color: Colors.cyan,
                                   size: 17,
                                 ),
                                 Icon(
                                   FontAwesomeIcons.radio,
-                                  color: Colors.purple,
+                                  color: Colors.cyan,
                                   size: 17,
                                 ),
                                 Icon(
                                   FontAwesomeIcons.wineGlass,
-                                  color: Colors.purple,
+                                  color: Colors.cyan,
                                   size: 17,
                                 ),
                                 Icon(
                                   FontAwesomeIcons.wifi,
-                                  color: Colors.purple,
+                                  color: Colors.cyan,
                                   size: 17,
                                 ),
                               ],

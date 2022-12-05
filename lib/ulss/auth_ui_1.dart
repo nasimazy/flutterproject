@@ -15,7 +15,7 @@ class AuthThreePage extends StatefulWidget {
 }
 
 class _AuthThreePageState extends State<AuthThreePage> {
-  final String backImg = 'assets/images/room4.jpg';
+  final String backImg = 'assets/hotelrooms/room3.jpg';
   late bool formVisible;
   int? _formsIndex;
 
@@ -32,7 +32,7 @@ class _AuthThreePageState extends State<AuthThreePage> {
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/room4.jpg'),
+              image: AssetImage('assets/hotelrooms/room3.jpg'),
               fit: BoxFit.cover,
             ),
           ),

@@ -36,7 +36,7 @@ class hotelbooking extends StatelessWidget {
                       padding: const EdgeInsets.only(left: 10),
                       child: Text("Hotel Packages",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 20),),
                     ),
-                    Padding(padding:EdgeInsets.only(right: 10),child: TextButton(onPressed: (){}, child: Text("View more",style: TextStyle(fontSize: 15,),)))
+                    Padding(padding:EdgeInsets.only(right: 10),child: TextButton(onPressed: (){}, child: Text("View all",style: TextStyle(fontSize: 15,),)))
                   ],
                 ),
                 SizedBox(height: 10,),

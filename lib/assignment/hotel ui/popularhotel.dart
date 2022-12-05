@@ -14,7 +14,7 @@ class popularhotels extends StatelessWidget {
               Padding(padding: EdgeInsets.only(left: 10),
                 child: hotelcard(hotelimage: "assets/hotelrooms/room1.jpg",
                     title:"Crown Plaza" ,
-                    subtitle: "A three star hotel in\nKakkand",
+                    subtitle: "A three star hotel in Kakkand",
                     price:"\$249 / night" ,
                     rating:"3.5" ),
               ),
@@ -104,7 +104,7 @@ class hotelcard extends StatelessWidget {
                 children: [
                   Text(
                     price,
-                    style: TextStyle(color: Colors.purple),
+                    style: TextStyle(color: Colors.cyan),
                   ),
 
                   Container(
@@ -112,11 +112,11 @@ class hotelcard extends StatelessWidget {
                         children: [
                           Text(
                             rating,
-                            style: TextStyle(color: Colors.purple),
+                            style: TextStyle(color: Colors.cyan),
                           ),
                           Icon(
                             Icons.star,
-                            color: Colors.purple,
+                            color: Colors.cyan,
                             size: 17,
                           )
                         ],
