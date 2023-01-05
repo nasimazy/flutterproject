@@ -75,6 +75,7 @@ flutter:
     - assets/hotelrooms/
     - assets/ecommerce/
     - assets/grid_view/
+    - assets/ui_grid/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

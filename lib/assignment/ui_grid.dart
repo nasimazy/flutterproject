@@ -9,12 +9,12 @@ void main(List<String> args) {
 
 class grd extends StatelessWidget {
   var iamges = [
-    "assets/images/india.jpg",
-    "assets/images/usa.jpg",
-    "assets/images/thailand.jpg",
-    "assets/images/russia.jpg",
-    "assets/images/england.webp",
-    "assets/images/china.jpg"
+    "assets/ui_grid/india.webp",
+    "assets/ui_grid/USA.jpeg",
+    "assets/ui_grid/thailand.jpeg",
+    "assets/ui_grid/russia.jpg",
+    "assets/ui_grid/england.jpg",
+    "assets/ui_grid/china.jpeg"
   ];
   var texts = ["INDIA", "USA", "THAILAND", "RUSSIA", "ENGLAND", "CHINA"];
 
