@@ -76,7 +76,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg1.jpg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg1.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -87,7 +87,7 @@ class _dragablegridState extends State<dragablegrid> {
                 horizontal: 4,
                 vertical: 4,
               ),
-              child: Image(image: AssetImage("assets/images/bg2.jpeg"),
+              child: Image(image: AssetImage("assets/grid_view/bg2.webp"),
                 fit: BoxFit.cover,),
             ),
             isDraggable: true,
@@ -99,7 +99,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg3.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg3.jpeg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -111,7 +111,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg4.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg4.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -123,7 +123,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg5.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg5.jpeg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -135,7 +135,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg6.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -147,7 +147,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg7.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg1.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -159,7 +159,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg8.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg1.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -171,7 +171,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg9.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg2.webp"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
@@ -183,7 +183,7 @@ class _dragablegridState extends State<dragablegrid> {
                 vertical: 4,
 
               ),
-              child:Image(image: AssetImage( "assets/images/bg10.jpeg"),
+              child:Image(image: AssetImage( "assets/grid_view/bg4.jpg"),
                 fit:BoxFit.cover ,),
             ),
             isDraggable: true,
